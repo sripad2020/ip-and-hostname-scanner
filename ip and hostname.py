@@ -37,7 +37,7 @@ elif choice==1:
     print('The https version of the Url ',o.http_version)
     print('The links in the webiste ',o.links)
     print('The apparent-encoding of the website ',o.apparent_encoding)
-    print('The status-code of the url if its exits it replies true ',o.status_code)
+    print('The status-code of the url if its ets it replies true ',o.status_code)
     print('The history about the website ',o.history)
     g = urllib.parse.urlparse(abc)
     print(g.netloc)
